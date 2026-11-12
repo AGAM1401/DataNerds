@@ -6,11 +6,21 @@
 # Environments & Virtual Envs
 .env
 .venv
+**/venv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Node & Frontend
+**/node_modules/
+dist/
+**/dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Python
 __pycache__/
@@ -20,7 +30,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -34,9 +43,9 @@ wheels/
 .installed.cfg
 *.egg
 
-# Jupyter Notebooks
-.ipynb_checkpoints
-*-checkpoint.ipynb
+# Data uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
 
 # IDEs & Editors
 .vscode/
@@ -44,11 +53,9 @@ wheels/
 *.swp
 *.swo
 
-# Data files (keep raw large data out of git)
-*.csv
-*.tsv
+# Ignore data files except sample data
 *.parquet
 *.feather
 *.sqlite3
 *.db
-!data/sample/
+!samples/*.csv

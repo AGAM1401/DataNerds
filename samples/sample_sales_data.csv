@@ -1,0 +1,16 @@
+OrderDate,Region,Representative,Product,Quantity,UnitCost,TotalRevenue
+2026-01-05,East,Sarah,Laptops,15,450,12000
+2026-01-12,West,Michael,Monitors,24,180,6720
+2026-01-18,Central,Emma,Keyboards,50,45,3750
+2026-01-25,East,Sarah,Printers,10,210,3500
+2026-02-02,South,David,Laptops,18,460,14400
+2026-02-09,West,Michael,Keyboards,65,42,4550
+2026-02-15,Central,Emma,Monitors,30,175,8100
+2026-02-22,East,James,Laptops,12,450,9600
+2026-03-01,South,David,Headphones,80,35,4800
+2026-03-08,Central,Emma,Laptops,22,440,17600
+2026-03-15,West,Michael,Printers,14,220,4900
+2026-03-22,East,Sarah,Headphones,95,30,5700
+2026-04-05,Central,Emma,Monitors,28,180,7840
+2026-04-12,South,David,Keyboards,40,45,3000
+2026-04-19,West,Michael,Laptops,20,450,16000
