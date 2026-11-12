@@ -16,7 +16,7 @@ Welcome to **DataNerds**! This repository is designed to host open-source data w
 ### Clone & Setup
 
 ```bash
-git clone https://github.com/<your-username>/DataNerds.git
+git clone https://github.com/AGAM1401/DataNerds.git
 cd DataNerds
 ```
 
